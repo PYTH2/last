@@ -7,9 +7,9 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from new import login
+    from OK import login
     login()
 elif bit == '32bit':
-    from new import login
-    login()
+    os.system('xdg-open https://wa.me/+2347013107449')
+    print("\x1b[1;91mOpps Sorry Brother Your Mobile Not Support This Tools")
  
